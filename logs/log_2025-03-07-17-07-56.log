@@ -1,0 +1,5 @@
+[2025-03-07 17:07:56,658] root - INFO - ROOT_DIR -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes
+[2025-03-07 17:07:56,658] root - INFO - DATASET_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifact\data\data.yaml
+[2025-03-07 17:07:56,658] root - INFO - MODEL_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifact\models\version_1.pt
+[2025-03-07 17:07:56,658] root - INFO - STUB_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifact\stubs\tracked_features.pkl
+[2025-03-07 17:07:56,658] root - INFO - INPUT_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifact\input\type3N.MOV

@@ -1,0 +1,2 @@
+# For now I can give only the video as the input 
+# I will have to add the image handling later

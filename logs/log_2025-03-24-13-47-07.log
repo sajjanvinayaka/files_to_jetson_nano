@@ -1,0 +1,6 @@
+[2025-03-24 13:47:07,426] root - INFO - ROOT_DIR -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code
+[2025-03-24 13:47:07,426] root - INFO - DATASET_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\data\data.yaml
+[2025-03-24 13:47:07,426] root - INFO - MODEL_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\models\version_1.pt
+[2025-03-24 13:47:07,426] root - INFO - STUB_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\stubs\tracked_features.pkl
+[2025-03-24 13:47:07,426] root - INFO - VIDEO_FILE_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\input\videos\type3N.MOV
+[2025-03-24 13:47:07,427] root - INFO - IMAGE_FILE_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\input\images\image.png

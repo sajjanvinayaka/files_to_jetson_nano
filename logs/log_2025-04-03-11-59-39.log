@@ -1,0 +1,2 @@
+[2025-04-03 11:59:39,191] root - INFO - The model used is C:\Users\106761\Desktop\Robotic_arm\Coding Space\try_new_code\artifacts\models with confidence value 0.3
+[2025-04-03 11:59:39,216] root - INFO - The image read from C:\Users\106761\Desktop\Robotic_arm\Coding Space\try_new_code\artifacts\input\images\type_1_N.png is (725, 1281, 3)

@@ -1,0 +1,9 @@
+[2025-04-03 12:02:20,071] root - INFO - The model used is C:\Users\106761\Desktop\Robotic_arm\Coding Space\try_new_code\artifacts\models with confidence value 0.3
+[2025-04-03 12:02:20,088] root - INFO - The image read from C:\Users\106761\Desktop\Robotic_arm\Coding Space\try_new_code\artifacts\input\images\type_1_N.png is (725, 1281, 3)
+[2025-04-03 12:02:24,397] root - INFO - Successfully saved output_images\type_1_N.png
+[2025-04-03 12:02:24,417] root - INFO - The image read from C:\Users\106761\Desktop\Robotic_arm\Coding Space\try_new_code\artifacts\input\images\type_2_N.png is (721, 1282, 3)
+[2025-04-03 12:02:24,849] root - INFO - Successfully saved output_images\type_2_N.png
+[2025-04-03 12:02:24,875] root - INFO - The image read from C:\Users\106761\Desktop\Robotic_arm\Coding Space\try_new_code\artifacts\input\images\type_3_Y.png is (718, 1285, 3)
+[2025-04-03 12:02:25,298] root - INFO - Successfully saved output_images\type_3_Y.png
+[2025-04-03 12:02:25,320] root - INFO - The image read from C:\Users\106761\Desktop\Robotic_arm\Coding Space\try_new_code\artifacts\input\images\type_4_N.png is (719, 1278, 3)
+[2025-04-03 12:02:25,703] root - INFO - Successfully saved output_images\type_4_N.png

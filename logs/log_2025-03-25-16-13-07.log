@@ -1,0 +1,15 @@
+[2025-03-25 16:13:07,301] root - INFO - ROOT_DIR -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code
+[2025-03-25 16:13:07,301] root - INFO - DATASET_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\data\data.yaml
+[2025-03-25 16:13:07,301] root - INFO - MODEL_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\models\version_1.pt
+[2025-03-25 16:13:07,301] root - INFO - STUB_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\stubs\tracked_features.pkl
+[2025-03-25 16:13:07,301] root - INFO - VIDEO_FILE_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\input\videos\type3N.MOV
+[2025-03-25 16:13:07,303] root - INFO - IMAGE_FILE_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\input\images\image.png
+[2025-03-25 16:13:07,433] root - INFO - The model used is C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\models with confidence value 0.3
+[2025-03-25 16:13:07,459] root - INFO - The image read from C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\input\images\type_1_N.png is (725, 1281, 3)
+[2025-03-25 16:13:12,502] root - INFO - Successfully saved output_images\type_1_N.png
+[2025-03-25 16:13:12,524] root - INFO - The image read from C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\input\images\type_2_N.png is (721, 1282, 3)
+[2025-03-25 16:13:12,891] root - INFO - Successfully saved output_images\type_2_N.png
+[2025-03-25 16:13:12,913] root - INFO - The image read from C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\input\images\type_3_Y.png is (718, 1285, 3)
+[2025-03-25 16:13:13,270] root - INFO - Successfully saved output_images\type_3_Y.png
+[2025-03-25 16:13:13,290] root - INFO - The image read from C:\Users\106761\Desktop\Robotic_arm\Coding Space\new_code\artifacts\input\images\type_4_N.png is (719, 1278, 3)
+[2025-03-25 16:13:13,652] root - INFO - Successfully saved output_images\type_4_N.png

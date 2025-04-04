@@ -1,0 +1,18 @@
+[2025-03-24 09:45:49,217] root - INFO - ROOT_DIR -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation
+[2025-03-24 09:45:49,218] root - INFO - DATASET_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\data\data.yaml
+[2025-03-24 09:45:49,218] root - INFO - MODEL_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\models\version_1.pt
+[2025-03-24 09:45:49,218] root - INFO - STUB_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\stubs\tracked_features.pkl
+[2025-03-24 09:45:49,218] root - INFO - VIDEO_FILE_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\input\videos\type3N.MOV
+[2025-03-24 09:45:49,218] root - INFO - IMAGE_FILE_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\input\images\image.png
+[2025-03-24 09:45:55,799] root - INFO - Succesfully read C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\input\videos contains 360 frames
+[2025-03-24 09:45:56,157] root - INFO - The model used is C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\models with confidence value 0.3
+[2025-03-24 09:45:56,157] root - INFO - The previous detection results are not found creating new .......
+[2025-03-24 09:48:01,407] root - INFO - The detections completed for 360 frames
+[2025-03-24 09:48:01,979] root - INFO - The frame engineering results are saved:
+                                    - obb_angle
+                                    - mid_point
+                                    - confidence
+                                    - text_position
+                                    - box_size
+                                    in C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\stubs\tracked_features.pkl
+[2025-03-24 09:48:09,659] root - INFO - Successfully saved output_videos/output_video.avi

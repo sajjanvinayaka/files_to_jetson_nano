@@ -1,0 +1,10 @@
+[2025-03-10 09:09:22,840] root - INFO - ROOT_DIR -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes
+[2025-03-10 09:09:22,840] root - INFO - DATASET_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\data\data.yaml
+[2025-03-10 09:09:22,840] root - INFO - MODEL_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\models\version_1.pt
+[2025-03-10 09:09:22,840] root - INFO - STUB_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\stubs\tracked_features.pkl
+[2025-03-10 09:09:22,841] root - INFO - INPUT_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\input\type3N.MOV
+[2025-03-10 09:09:25,685] root - INFO - The frame was read successfully
+[2025-03-10 09:09:25,686] root - INFO - Succesfully read C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\input contains 360 frames
+[2025-03-10 09:09:26,044] root - INFO - The model used is C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\models with confidence value 0.3
+[2025-03-10 09:09:26,045] root - INFO - The previous detection results are not found creating new .......
+[2025-03-10 09:11:23,672] root - INFO - The detections completed for 360 frames

@@ -1,0 +1,9 @@
+[2025-03-10 09:19:40,988] root - INFO - ROOT_DIR -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes
+[2025-03-10 09:19:40,988] root - INFO - DATASET_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\data\data.yaml
+[2025-03-10 09:19:40,988] root - INFO - MODEL_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\models\version_1.pt
+[2025-03-10 09:19:40,988] root - INFO - STUB_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\stubs\tracked_features.pkl
+[2025-03-10 09:19:40,988] root - INFO - INPUT_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\input\type3N.MOV
+[2025-03-10 09:19:43,347] root - INFO - Succesfully read C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\input contains 360 frames
+[2025-03-10 09:19:43,449] root - INFO - The model used is C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\models with confidence value 0.3
+[2025-03-10 09:19:43,451] root - INFO - The previous detection results are loaded from C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\stubs\tracked_features.pkl
+[2025-03-10 09:19:50,330] root - INFO - Successfully saved output_videos/output_video.avi

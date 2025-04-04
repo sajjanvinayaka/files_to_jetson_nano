@@ -1,0 +1,15 @@
+[2025-03-07 17:13:13,559] root - INFO - ROOT_DIR -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes
+[2025-03-07 17:13:13,559] root - INFO - DATASET_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\data\data.yaml
+[2025-03-07 17:13:13,559] root - INFO - MODEL_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\models\version_1.pt
+[2025-03-07 17:13:13,559] root - INFO - STUB_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\stubs\tracked_features.pkl
+[2025-03-07 17:13:13,560] root - INFO - INPUT_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\input\type3N.MOV
+[2025-03-07 17:13:13,880] root - INFO - The model used is C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\models with confidence value 0.3
+[2025-03-07 17:13:13,881] root - INFO - The previous detection results are not found creating new .......
+[2025-03-07 17:13:13,881] root - INFO - The detections completed for 0 frames
+[2025-03-07 17:13:13,883] root - INFO - The frame engineering results are saved:
+                                    - obb_angle
+                                    - mid_point
+                                    - confidence
+                                    - text_position
+                                    - box_size
+                                    in C:\Users\106761\Desktop\Robotic_arm\Coding Space\proper_code_imple_4_classes\artifacts\stubs\tracked_features.pkl

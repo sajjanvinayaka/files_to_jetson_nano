@@ -1,0 +1,7 @@
+[2025-03-10 16:29:10,707] root - INFO - ROOT_DIR -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation
+[2025-03-10 16:29:10,707] root - INFO - DATASET_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\data\data.yaml
+[2025-03-10 16:29:10,707] root - INFO - MODEL_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\models\version_1.pt
+[2025-03-10 16:29:10,707] root - INFO - STUB_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\stubs\tracked_features.pkl
+[2025-03-10 16:29:10,707] root - INFO - VIDEO_FILE_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\input\videos\type3N.MOV
+[2025-03-10 16:29:10,707] root - INFO - IMAGE_FILE_PATH -> C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\input\images\image.png
+[2025-03-10 16:29:14,693] root - INFO - The image read from C:\Users\106761\Desktop\Robotic_arm\Coding Space\vid_img_handle_proper_code_implementation\artifacts\input\images\image.png is (648, 1278, 3)
