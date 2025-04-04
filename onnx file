@@ -1,0 +1,21 @@
+import onnxruntime as ort
+import numpy as np
+import cv2
+
+# Load ONNX Model
+onnx_model_path = "yolov11-obb.onnx"
+session = ort.InferenceSession(onnx_model_path, providers=["CUDAExecutionProvider"])
+
+# Load Image
+image = cv2.imread("test_image.jpg")
+image = cv2.resize(image, (640, 640))  # Resize to model input size
+image = image.transpose(2, 0, 1).astype(np.float32)  # HWC -> CHW
+image = np.expand_dims(image, axis=0)  # Add batch dimension
+image /= 255.0  # Normalize
+
+# Run Inference
+input_name = session.get_inputs()[0].name
+outputs = session.run(None, {input_name: image})
+
+# Print Output
+print("Inference Output:", outputs)
