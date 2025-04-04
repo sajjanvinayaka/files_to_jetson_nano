@@ -1,0 +1,57 @@
+import cv2
+import numpy as np
+import tensorrt as trt
+
+# Load TensorRT model
+TRT_LOGGER = trt.Logger(trt.Logger.WARNING)
+runtime = trt.Runtime(TRT_LOGGER)
+
+def load_engine(engine_path):
+    """Load a serialized TensorRT engine."""
+    with open(engine_path, "rb") as f:
+        return runtime.deserialize_cuda_engine(f.read())
+
+def allocate_buffers(engine):
+    """Allocate memory buffers for TensorRT inference without PyCUDA."""
+    inputs, outputs, bindings = [], [], []
+    
+    for binding in engine:
+        shape = engine.get_binding_shape(binding)
+        dtype = trt.nptype(engine.get_binding_dtype(binding))
+        size = np.prod(shape)
+        buffer = np.zeros(size, dtype=dtype)  # Host buffer
+        bindings.append(buffer)
+        
+        if engine.binding_is_input(binding):
+            inputs.append(buffer)
+        else:
+            outputs.append(buffer)
+    
+    return inputs, outputs, bindings
+
+def do_inference(context, inputs, outputs, bindings):
+    """Run inference without PyCUDA."""
+    context.execute_v2(bindings=[b.ctypes.data for b in bindings])
+    return outputs[0]  # Return output tensor
+
+# Load engine
+engine = load_engine("yolov11-obb.trt")
+context = engine.create_execution_context()
+
+# Allocate buffers without PyCUDA
+inputs, outputs, bindings = allocate_buffers(engine)
+
+# Load and preprocess image
+image = cv2.imread("test_image.jpg")
+image = cv2.resize(image, (640, 640))  # Resize to model input size
+image = image.transpose(2, 0, 1).astype(np.float32)  # HWC -> CHW
+image = np.expand_dims(image, axis=0)  # Add batch dimension
+image /= 255.0  # Normalize
+inputs[0][:] = image.ravel()  # Flatten and copy to input buffer
+
+# Run inference
+output = do_inference(context, inputs, outputs, bindings)
+
+# Post-processing (reshape output to expected format)
+output = output.reshape(-1, 6)  # Example for YOLO output: [x, y, w, h, conf, class]
+print("Detections:", output)
